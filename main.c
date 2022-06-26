@@ -187,7 +187,7 @@ void deleterec()
     fclose(lib_file);
     fclose(temp);
     remove("books.txt");
-	  rename("temp.txt", "books.txt");
+    rename("temp.txt", "books.txt");
     printf("\tRecord Deleted and File Saved!\n\n");
   
 }
