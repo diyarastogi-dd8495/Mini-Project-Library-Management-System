@@ -116,8 +116,7 @@ void search()
 
 void displayall()
 {
-    int code, size = 0;
-  
+ 
     FILE *lib_file;
     lib_file = fopen("books.txt", "r");
     if (lib_file == NULL)
