@@ -74,7 +74,7 @@ void insert()
     fflush(stdin);
     printf("\n\t\tEnter Book's Title : ");
     scanf("%s", s.title);
-    printf("\n\t\tEnter Auth_name's Title : ");
+    printf("\n\t\tEnter Author's Name : ");
     scanf("%s", s.auth_name);
     fwrite(&s, sizeof(s), 1, lib_file);
     {
